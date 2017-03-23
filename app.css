@@ -1,0 +1,67 @@
+#OPOP{
+  position: absolute;
+  left: 590px;
+  top: 150px;
+}
+
+#barout{
+  position:absolute;
+  border:3px solid #696969;
+  width:450px;
+  height:25px;
+  top:540px;
+  left:482px;
+  border-radius:30px;
+  box-shadow:0px 0px 10px rgba(20%,20%,50%, 0.8);
+}
+#barin{
+  position:absolute;
+  border:none;
+  width:438px;
+  height:18px;
+  top:546px;
+  left:490px;
+  border-radius:30px;
+  background-color:#20B2AA;
+  box-shadow:0px 0px 10px rgba(20%,20%,50%,0.8);
+  animation: loading 8s ease 0s 1 normal;
+}
+
+@keyframes loading
+{
+  0% {width:0px;}
+  25%{width: 120px;}
+  50% {width:240px;}
+  100% { width:438px;}
+}
+
+#FIN{
+  position:absolute;
+  display:inline;
+  font-size:48px;
+  font-family:sans-serif;
+  top:350px;
+  left:615px;
+  color:#20B2AA;
+  text-transform:uppercase;
+}
+#TECH{
+  position:absolute;
+  display:inline;
+  font-size:48px;
+  font-family:sans-serif;
+  top:350px;
+  left:695px;
+  color:#696969;
+  text-transform:uppercase;
+}
+
+#Loading{
+  position:absolute;
+  top:600px;
+  left:650px;
+  font-size:26px;
+  font-family:sans-serif;
+  color:#808080;
+  
+}
